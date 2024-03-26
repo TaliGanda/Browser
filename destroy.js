@@ -220,4 +220,4 @@ function runFlooder() {
   });
 }
 const KillScript = () => process.exit();
-setTimeout(KillScript, args.time * 0x3e8);
+setTimeout(KillScript,args.time *1000);
